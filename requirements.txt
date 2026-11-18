@@ -1,0 +1,10 @@
+# Packages needed to run the code.
+# Before submission: run `pip freeze` in a clean environment and pin the versions you actually used.
+pandas
+numpy
+scikit-learn
+matplotlib
+jupyter
+ipykernel
+pyarrow
+# tensorflow   # uncomment only if the neural network uses TensorFlow (otherwise sklearn's MLPClassifier is enough)

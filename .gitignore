@@ -1,0 +1,31 @@
+# Raw data is too large for GitHub (appearances.csv ~200 MB, limit is 100 MB per file).
+# It is obtained with the instructions in README.md (requirement 4.15).
+data/raw/*
+!data/raw/.gitkeep
+
+# Python caches, checkpoints, environments (requirement 4.12)
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Editor settings and OS files (requirement 4.12)
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets (e.g. Kaggle API token)
+.env
+kaggle.json
+
+# LaTeX build files, in case the paper is compiled locally
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+.Rhistory
